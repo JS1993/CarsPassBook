@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0744B01CB884B1007E01E0 /* Cars.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0744AF1CB884B1007E01E0 /* Cars.m */; };
+		CF73FA4E1CB88341006244A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA4D1CB88341006244A0 /* main.m */; };
+		CF73FA511CB88341006244A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA501CB88341006244A0 /* AppDelegate.m */; };
+		CF73FA541CB88341006244A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA531CB88341006244A0 /* ViewController.m */; };
+		CF73FA571CB88341006244A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF73FA551CB88341006244A0 /* Main.storyboard */; };
+		CF73FA5A1CB88341006244A0 /* CarsPassBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA581CB88341006244A0 /* CarsPassBook.xcdatamodeld */; };
+		CF73FA5C1CB88341006244A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF73FA5B1CB88341006244A0 /* Assets.xcassets */; };
+		CF73FA5F1CB88341006244A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF73FA5D1CB88341006244A0 /* LaunchScreen.storyboard */; };
+		CF73FA6A1CB88341006244A0 /* CarsPassBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA691CB88341006244A0 /* CarsPassBookTests.m */; };
+		CF73FA751CB88341006244A0 /* CarsPassBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA741CB88341006244A0 /* CarsPassBookUITests.m */; };
+		CF73FA831CB8836A006244A0 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF73FA821CB8836A006244A0 /* cars_total.plist */; };
+		CF73FA861CB88432006244A0 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73FA851CB88432006244A0 /* Cat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF73FA661CB88341006244A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF73FA411CB88341006244A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF73FA481CB88341006244A0;
+			remoteInfo = CarsPassBook;
+		};
+		CF73FA711CB88341006244A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF73FA411CB88341006244A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF73FA481CB88341006244A0;
+			remoteInfo = CarsPassBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0744AE1CB884B1007E01E0 /* Cars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cars.h; sourceTree = "<group>"; };
+		CF0744AF1CB884B1007E01E0 /* Cars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cars.m; sourceTree = "<group>"; };
+		CF73FA491CB88341006244A0 /* CarsPassBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsPassBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF73FA4D1CB88341006244A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF73FA4F1CB88341006244A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF73FA501CB88341006244A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF73FA521CB88341006244A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF73FA531CB88341006244A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF73FA561CB88341006244A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF73FA591CB88341006244A0 /* CarsPassBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarsPassBook.xcdatamodel; sourceTree = "<group>"; };
+		CF73FA5B1CB88341006244A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF73FA5E1CB88341006244A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF73FA601CB88341006244A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF73FA651CB88341006244A0 /* CarsPassBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsPassBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF73FA691CB88341006244A0 /* CarsPassBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarsPassBookTests.m; sourceTree = "<group>"; };
+		CF73FA6B1CB88341006244A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF73FA701CB88341006244A0 /* CarsPassBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsPassBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF73FA741CB88341006244A0 /* CarsPassBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarsPassBookUITests.m; sourceTree = "<group>"; };
+		CF73FA761CB88341006244A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF73FA821CB8836A006244A0 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		CF73FA841CB88432006244A0 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		CF73FA851CB88432006244A0 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF73FA461CB88341006244A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA621CB88341006244A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA6D1CB88341006244A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF73FA401CB88341006244A0 = {
+			isa = PBXGroup;
+			children = (
+				CF73FA4B1CB88341006244A0 /* CarsPassBook */,
+				CF73FA681CB88341006244A0 /* CarsPassBookTests */,
+				CF73FA731CB88341006244A0 /* CarsPassBookUITests */,
+				CF73FA4A1CB88341006244A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF73FA4A1CB88341006244A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF73FA491CB88341006244A0 /* CarsPassBook.app */,
+				CF73FA651CB88341006244A0 /* CarsPassBookTests.xctest */,
+				CF73FA701CB88341006244A0 /* CarsPassBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF73FA4B1CB88341006244A0 /* CarsPassBook */ = {
+			isa = PBXGroup;
+			children = (
+				CF73FA4F1CB88341006244A0 /* AppDelegate.h */,
+				CF73FA501CB88341006244A0 /* AppDelegate.m */,
+				CF73FA521CB88341006244A0 /* ViewController.h */,
+				CF73FA531CB88341006244A0 /* ViewController.m */,
+				CF73FA551CB88341006244A0 /* Main.storyboard */,
+				CF73FA5B1CB88341006244A0 /* Assets.xcassets */,
+				CF73FA5D1CB88341006244A0 /* LaunchScreen.storyboard */,
+				CF73FA601CB88341006244A0 /* Info.plist */,
+				CF73FA581CB88341006244A0 /* CarsPassBook.xcdatamodeld */,
+				CF73FA4C1CB88341006244A0 /* Supporting Files */,
+				CF73FA841CB88432006244A0 /* Cat.h */,
+				CF73FA851CB88432006244A0 /* Cat.m */,
+			);
+			path = CarsPassBook;
+			sourceTree = "<group>";
+		};
+		CF73FA4C1CB88341006244A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF73FA821CB8836A006244A0 /* cars_total.plist */,
+				CF0744AE1CB884B1007E01E0 /* Cars.h */,
+				CF0744AF1CB884B1007E01E0 /* Cars.m */,
+				CF73FA4D1CB88341006244A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF73FA681CB88341006244A0 /* CarsPassBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF73FA691CB88341006244A0 /* CarsPassBookTests.m */,
+				CF73FA6B1CB88341006244A0 /* Info.plist */,
+			);
+			path = CarsPassBookTests;
+			sourceTree = "<group>";
+		};
+		CF73FA731CB88341006244A0 /* CarsPassBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF73FA741CB88341006244A0 /* CarsPassBookUITests.m */,
+				CF73FA761CB88341006244A0 /* Info.plist */,
+			);
+			path = CarsPassBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF73FA481CB88341006244A0 /* CarsPassBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF73FA791CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBook" */;
+			buildPhases = (
+				CF73FA451CB88341006244A0 /* Sources */,
+				CF73FA461CB88341006244A0 /* Frameworks */,
+				CF73FA471CB88341006244A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarsPassBook;
+			productName = CarsPassBook;
+			productReference = CF73FA491CB88341006244A0 /* CarsPassBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF73FA641CB88341006244A0 /* CarsPassBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF73FA7C1CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBookTests" */;
+			buildPhases = (
+				CF73FA611CB88341006244A0 /* Sources */,
+				CF73FA621CB88341006244A0 /* Frameworks */,
+				CF73FA631CB88341006244A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF73FA671CB88341006244A0 /* PBXTargetDependency */,
+			);
+			name = CarsPassBookTests;
+			productName = CarsPassBookTests;
+			productReference = CF73FA651CB88341006244A0 /* CarsPassBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF73FA6F1CB88341006244A0 /* CarsPassBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF73FA7F1CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBookUITests" */;
+			buildPhases = (
+				CF73FA6C1CB88341006244A0 /* Sources */,
+				CF73FA6D1CB88341006244A0 /* Frameworks */,
+				CF73FA6E1CB88341006244A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF73FA721CB88341006244A0 /* PBXTargetDependency */,
+			);
+			name = CarsPassBookUITests;
+			productName = CarsPassBookUITests;
+			productReference = CF73FA701CB88341006244A0 /* CarsPassBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF73FA411CB88341006244A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF73FA481CB88341006244A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF73FA641CB88341006244A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF73FA481CB88341006244A0;
+					};
+					CF73FA6F1CB88341006244A0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF73FA481CB88341006244A0;
+					};
+				};
+			};
+			buildConfigurationList = CF73FA441CB88341006244A0 /* Build configuration list for PBXProject "CarsPassBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF73FA401CB88341006244A0;
+			productRefGroup = CF73FA4A1CB88341006244A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF73FA481CB88341006244A0 /* CarsPassBook */,
+				CF73FA641CB88341006244A0 /* CarsPassBookTests */,
+				CF73FA6F1CB88341006244A0 /* CarsPassBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF73FA471CB88341006244A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73FA5F1CB88341006244A0 /* LaunchScreen.storyboard in Resources */,
+				CF73FA5C1CB88341006244A0 /* Assets.xcassets in Resources */,
+				CF73FA831CB8836A006244A0 /* cars_total.plist in Resources */,
+				CF73FA571CB88341006244A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA631CB88341006244A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA6E1CB88341006244A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF73FA451CB88341006244A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73FA5A1CB88341006244A0 /* CarsPassBook.xcdatamodeld in Sources */,
+				CF73FA541CB88341006244A0 /* ViewController.m in Sources */,
+				CF0744B01CB884B1007E01E0 /* Cars.m in Sources */,
+				CF73FA511CB88341006244A0 /* AppDelegate.m in Sources */,
+				CF73FA4E1CB88341006244A0 /* main.m in Sources */,
+				CF73FA861CB88432006244A0 /* Cat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA611CB88341006244A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73FA6A1CB88341006244A0 /* CarsPassBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF73FA6C1CB88341006244A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73FA751CB88341006244A0 /* CarsPassBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF73FA671CB88341006244A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF73FA481CB88341006244A0 /* CarsPassBook */;
+			targetProxy = CF73FA661CB88341006244A0 /* PBXContainerItemProxy */;
+		};
+		CF73FA721CB88341006244A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF73FA481CB88341006244A0 /* CarsPassBook */;
+			targetProxy = CF73FA711CB88341006244A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF73FA551CB88341006244A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF73FA561CB88341006244A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF73FA5D1CB88341006244A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF73FA5E1CB88341006244A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF73FA771CB88341006244A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF73FA781CB88341006244A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF73FA7A1CB88341006244A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CarsPassBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF73FA7B1CB88341006244A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CarsPassBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF73FA7D1CB88341006244A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarsPassBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarsPassBook.app/CarsPassBook";
+			};
+			name = Debug;
+		};
+		CF73FA7E1CB88341006244A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarsPassBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarsPassBook.app/CarsPassBook";
+			};
+			name = Release;
+		};
+		CF73FA801CB88341006244A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarsPassBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarsPassBook;
+			};
+			name = Debug;
+		};
+		CF73FA811CB88341006244A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarsPassBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.CarsPassBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarsPassBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF73FA441CB88341006244A0 /* Build configuration list for PBXProject "CarsPassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF73FA771CB88341006244A0 /* Debug */,
+				CF73FA781CB88341006244A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF73FA791CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF73FA7A1CB88341006244A0 /* Debug */,
+				CF73FA7B1CB88341006244A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF73FA7C1CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF73FA7D1CB88341006244A0 /* Debug */,
+				CF73FA7E1CB88341006244A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF73FA7F1CB88341006244A0 /* Build configuration list for PBXNativeTarget "CarsPassBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF73FA801CB88341006244A0 /* Debug */,
+				CF73FA811CB88341006244A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF73FA581CB88341006244A0 /* CarsPassBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF73FA591CB88341006244A0 /* CarsPassBook.xcdatamodel */,
+			);
+			currentVersion = CF73FA591CB88341006244A0 /* CarsPassBook.xcdatamodel */;
+			path = CarsPassBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF73FA411CB88341006244A0 /* Project object */;
+}
